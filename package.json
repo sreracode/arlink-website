@@ -1,0 +1,12 @@
+{
+  "name": "attractive-arweave-site",
+  "version": "1.0.0",
+  "description": "Sebuah website sederhana untuk Arweave.",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'No server needed'",
+    "build": "echo 'No build needed'"
+  },
+  "author": "sreracode",
+  "license": "MIT"
+}
