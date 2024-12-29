@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Sebuah website sederhana untuk Arweave.",
   "main": "index.html",
-  "scripts": {
+ "scripts": {
     "start": "echo 'No server needed'",
-    "build": "echo 'No build needed'"
-  },
+    "build": "if not exist dist (mkdir dist) && xcopy index.html dist\\ /Y && xcopy about.html dist\\ /Y && xcopy styles.css dist\\ /Y && xcopy script.js dist\\ /Y"
+},
   "author": "sreracode",
   "license": "MIT"
 }
